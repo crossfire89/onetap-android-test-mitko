@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- color of tabs -->
+    <color name="ColorPrimary">#037C5B</color>
+    <color name="ColorPrimaryDark">#037C5B</color>
+    <color name="tabsScrollColor">#FFFFFF</color>
+    <color name="blackListView">#000000</color>
+    <color name="purple">#551A8B</color>
+
+
+    <color name="transparent_color">#FFFFFF</color>
+
+</resources>

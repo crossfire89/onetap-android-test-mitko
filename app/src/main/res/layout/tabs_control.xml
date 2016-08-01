@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/_43sdp"/>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/tool_bar_container"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_235sdp"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager_header"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp" />
+
+            <LinearLayout
+                android:id="@+id/layout_dots"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:gravity="center|bottom"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:background="#00B38C">
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <com.mitko.jobactivity.tableView.sliding_layout.SlidingTabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43sdp"
+            android:background="@color/ColorPrimary"/>
+    </LinearLayout>
+</RelativeLayout>
